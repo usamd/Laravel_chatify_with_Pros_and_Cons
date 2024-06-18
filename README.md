@@ -29,4 +29,14 @@
 - **php artisan storage:link**
 - **php artisan serve**
 
-References : https://github.com/munafio/chatify-demo
+## To change Pusher Credentials :
+Create an account (https://pusher.com) and then create a Channels app. To get API keys, from the Pusher Dashboard, navigate to App Keys. Copy your app_id, key, secret, and cluster.
+Open a connection to Channels using the key and cluster you copied earlier.
+
+var pusher = new Pusher("APP_KEY", { <br> 
+  cluster: "APP_CLUSTER", <br> 
+}); <br> 
+
+
+Refer this  : https://github.com/munafio/chatify-demo and https://pusher.com/docs/channels/getting_started/javascript/?ref=docs-index
+
