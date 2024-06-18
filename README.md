@@ -18,10 +18,10 @@
 | Chatify            | Very Easy     | Fast              | Moderate    | Low           |
 
 
-###To run: Use these commands
+## To run: Use these commands
 - **composer install**
-- **cp .env.example .env **
-- **Create database **
+- **cp .env.example .env**
+- **Create database**
 - **modify .env with your DB name and Pusher credentials**
 - **php artisan migrate --seed**
 - **php artisan key:generate**
