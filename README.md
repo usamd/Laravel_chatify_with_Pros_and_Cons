@@ -19,14 +19,14 @@
 
 
 ###To run: Use these commands
-composer install 
-cp .env.example .env 
-Create database 
-modify .env with your DB name and Pusher credentials
-php artisan migrate --seed
-php artisan key:generate
-npm install && npm run dev
-php artisan storage:link
-php artisan serve
+- **composer install**
+- **cp .env.example .env **
+- **Create database **
+- **modify .env with your DB name and Pusher credentials**
+- **php artisan migrate --seed**
+- **php artisan key:generate**
+- **npm install && npm run dev**
+- **php artisan storage:link**
+- **php artisan serve**
 
 References : https://github.com/munafio/chatify-demo
